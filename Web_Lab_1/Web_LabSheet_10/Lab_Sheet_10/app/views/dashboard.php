@@ -1,0 +1,1 @@
+<?php require __DIR__.'/layout/header.php'; ?><h2>Dashboard</h2><p>Welcome, <?=e(current_user()['name'])?>!</p><p>You are logged in.</p><form method="post" action="index.php?route=logout"><?=csrf_field()?><button>Logout</button></form><?php require __DIR__.'/layout/footer.php'; ?>
