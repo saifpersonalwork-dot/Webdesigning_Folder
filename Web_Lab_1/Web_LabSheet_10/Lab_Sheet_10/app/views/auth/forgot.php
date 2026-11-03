@@ -1,1 +1,0 @@
-<?php require __DIR__.'/../layout/header.php'; ?><h2>Forgot Password</h2><?php if(!empty($message)) echo '<p>'.e($message).'</p>'; ?><form method="post"><?=csrf_field()?><label>Email <input type="email" name="email" required></label><button>Send reset link</button></form><?php require __DIR__.'/../layout/footer.php'; ?>
