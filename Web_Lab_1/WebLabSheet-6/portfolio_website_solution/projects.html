@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Alex Morgan</title><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top"><nav class="navbar container" aria-label="Main navigation">
+    <a class="logo" href="index.html">AM<span>.</span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a class="active" href="projects.html">Projects</a><a href="contact.html">Contact</a><button class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button></div>
+  </nav></header>
+  <main class="container page-main">
+    <section class="page-intro"><p class="eyebrow">SELECTED WORK</p><h1>My projects</h1><p>A few sample projects that demonstrate design and development skills.</p></section>
+    <label class="search-label" for="project-search">Search projects</label>
+    <input id="project-search" class="search-input" type="search" placeholder="Type to filter projects...">
+    <section class="project-grid" id="project-grid">
+      <article class="project-card" data-search="dashboard analytics charts data"><img src="assets/project-dashboard.svg" alt="Dashboard project preview"><div class="project-content"><span class="project-type">Web application</span><h2>Insight Dashboard</h2><p>A clear dashboard concept for viewing important data at a glance.</p><a href="contact.html">Discuss a similar project →</a></div></article>
+      <article class="project-card" data-search="commerce shop product store"><img src="assets/project-shop.svg" alt="Online shop project preview"><div class="project-content"><span class="project-type">E-commerce</span><h2>Everyday Store</h2><p>A simple storefront concept with product-focused layouts.</p><a href="contact.html">Discuss a similar project →</a></div></article>
+      <article class="project-card" data-search="travel booking trip mobile"><img src="assets/project-travel.svg" alt="Travel app project preview"><div class="project-content"><span class="project-type">Mobile concept</span><h2>Wander Guide</h2><p>A travel planning concept for discovering memorable places.</p><a href="contact.html">Discuss a similar project →</a></div></article>
+      <article class="project-card" data-search="portfolio personal website design"><img src="assets/project-portfolio.svg" alt="Portfolio project preview"><div class="project-content"><span class="project-type">Website</span><h2>Creative Portfolio</h2><p>A responsive portfolio layout for a creative professional.</p><a href="contact.html">Discuss a similar project →</a></div></article>
+    </section>
+    <p id="no-projects" class="empty-state" hidden>No matching projects found.</p>
+    <section class="section pricing-section"><div class="section-heading"><p class="eyebrow">SIMPLE PACKAGES</p><h2>Pricing plans</h2><p>Example packages — final pricing depends on project scope.</p></div>
+      <div class="pricing-grid">
+        <article class="price-card"><h3>Starter</h3><p class="price">₹4,999 <small>/ project</small></p><p>For a simple personal website.</p><ul><li>Up to 3 pages</li><li>Responsive layout</li><li>Basic contact section</li></ul><a class="btn btn-outline" href="contact.html">Choose Starter</a></article>
+        <article class="price-card popular"><span class="popular-label">POPULAR</span><h3>Professional</h3><p class="price">₹9,999 <small>/ project</small></p><p>For growing brands and portfolios.</p><ul><li>Up to 6 pages</li><li>Responsive layout</li><li>Interactive features</li></ul><a class="btn" href="contact.html">Choose Professional</a></article>
+        <article class="price-card"><h3>Business</h3><p class="price">₹17,999 <small>/ project</small></p><p>For businesses needing more features.</p><ul><li>Up to 10 pages</li><li>Custom sections</li><li>Priority support</li></ul><a class="btn btn-outline" href="contact.html">Choose Business</a></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span class="year"></span> Alex Morgan.</p><div class="social-links"><a href="https://github.com/">GitHub</a><a href="https://www.linkedin.com/">LinkedIn</a><a href="https://www.instagram.com/">Instagram</a></div></div></footer>
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+</body></html>

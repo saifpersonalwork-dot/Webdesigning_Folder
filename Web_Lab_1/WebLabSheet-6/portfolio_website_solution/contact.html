@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Alex Morgan</title><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top"><nav class="navbar container" aria-label="Main navigation">
+    <a class="logo" href="index.html">AM<span>.</span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a class="active" href="contact.html">Contact</a><button class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button></div>
+  </nav></header>
+  <main class="container page-main">
+    <section class="page-intro"><p class="eyebrow">LET'S CONNECT</p><h1>Contact me</h1><p>Have a question or an idea? Send a message using the form below.</p></section>
+    <section class="contact-layout">
+      <form id="contact-form" class="contact-form" novalidate>
+        <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+        <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+        <label for="message">Message</label><textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+        <button class="btn" type="submit">Send message</button>
+        <p id="form-feedback" class="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+      <aside class="contact-aside"><h2>Other ways to connect</h2><p><strong>Email</strong><br>hello@example.com</p><p><strong>Location</strong><br>Available for remote projects</p><p>Usually replies within two working days.</p></aside>
+    </section>
+    <section class="section faq-section"><div class="section-heading"><p class="eyebrow">NEED TO KNOW?</p><h2>Frequently asked questions</h2></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false">How long does a website take? <span>+</span></button><div class="faq-answer"><p>A small website may take one to two weeks. Larger projects depend on the features and content required.</p></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false">Can you update an existing website? <span>+</span></button><div class="faq-answer"><p>Yes. Existing websites can be reviewed and improved based on the project requirements.</p></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false">Will the website work on mobile? <span>+</span></button><div class="faq-answer"><p>Yes. The pages in this sample are responsive and adapt to mobile, tablet and desktop screens.</p></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span class="year"></span> Alex Morgan.</p><div class="social-links"><a href="https://github.com/">GitHub</a><a href="https://www.linkedin.com/">LinkedIn</a><a href="https://www.instagram.com/">Instagram</a></div></div></footer>
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+</body></html>

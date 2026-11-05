@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive personal portfolio website.">
+  <title>Alex Morgan | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="index.html">AM<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">HELLO, I'M ALEX MORGAN</p>
+        <h1>Designing ideas<br>into <span>digital experiences.</span></h1>
+        <p class="hero-copy">I am a creative developer who builds thoughtful, accessible and responsive websites.</p>
+        <a class="btn" href="projects.html">Explore my work</a>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE INTRODUCTION</p>
+        <h2>Turning curiosity into creativity</h2>
+        <p>I combine clean design with useful technology to create meaningful digital products.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">✦</div><h3>Creative design</h3><p>Simple layouts, clear typography and consistent visual systems.</p></article>
+        <article class="feature-card"><div class="feature-icon">⌘</div><h3>Development</h3><p>Responsive, accessible websites built with modern front-end tools.</p></article>
+        <article class="feature-card"><div class="feature-icon">↗</div><h3>Problem solving</h3><p>Practical solutions focused on people and real-world needs.</p></article>
+      </div>
+    </section>
+
+    <section class="section stats-section">
+      <div class="container stats-grid">
+        <div><strong class="counter" data-target="24">0</strong><span>Projects completed</span></div>
+        <div><strong class="counter" data-target="12">0</strong><span>Happy clients</span></div>
+        <div><strong class="counter" data-target="3">0</strong><span>Years learning</span></div>
+        <div><strong class="counter" data-target="8">0</strong><span>Technologies used</span></div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading"><p class="eyebrow">KIND WORDS</p><h2>What people say</h2></div>
+      <div class="testimonial">
+        <button class="slider-arrow" id="testimonial-prev" aria-label="Previous testimonial">‹</button>
+        <article class="testimonial-slide" id="testimonial-slide" aria-live="polite">
+          <p class="quote">“Alex transformed our ideas into a clean and easy-to-use website.”</p>
+          <h3>Jordan Lee</h3><span>Small business owner</span>
+        </article>
+        <button class="slider-arrow" id="testimonial-next" aria-label="Next testimonial">›</button>
+      </div>
+    </section>
+
+    <section class="section container centered">
+      <h2>Have a project in mind?</h2>
+      <p>Let’s work together and make something useful.</p>
+      <a class="btn" href="contact.html">Get in touch</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span class="year"></span> Alex Morgan. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://www.instagram.com/" aria-label="Instagram">Instagram</a>
+      </div>
+    </div>
+  </footer>
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
