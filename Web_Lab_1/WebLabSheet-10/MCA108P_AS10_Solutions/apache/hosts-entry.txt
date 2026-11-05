@@ -1,0 +1,4 @@
+127.0.0.1 myproject.local
+
+# Linux/macOS: add to /etc/hosts using sudo.
+# Windows: edit C:\Windows\System32\drivers\etc\hosts as Administrator.
